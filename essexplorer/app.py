@@ -15,7 +15,7 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div(children=[
     # Title
-    html.H1("European Social Survey",),
+    html.H1("European Social Survey: Exploring trust",),
 
     # Summary statistics
     html.H2("Summary statistics",),
