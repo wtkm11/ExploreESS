@@ -6,8 +6,8 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 
-from essexplorer.features.summary import summary_table
-from essexplorer.features.histogram import (
+from essexplorer.layout.summary import summary_table
+from essexplorer.layout.histogram import (
     hist, hist_get_figure, hist_variable_selection
 )
 
