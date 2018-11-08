@@ -2,7 +2,7 @@ TRUST_VARS = {
     "ppltrst": "Most people can be trusted or you can't be too careful",
     "pplfair": "Most people try to take advantage of you, or try to be fair",
     "pplhlp": (
-        "Most of the time people helpful or mostly looking out for themselves",
+        "Most of the time people helpful or mostly looking out for themselves"
     ),
     "trstprl": "Trust in country's parliament",
     "trstlgl": "Trust in the legal system",
