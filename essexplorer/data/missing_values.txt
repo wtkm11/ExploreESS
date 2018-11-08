@@ -1,0 +1,237 @@
+nwspol 7777 8888 9999
+netusoft 7 8 9
+netustm 6666 7777 8888 9999
+ppltrst 77 88 99
+pplfair 77 88 99
+pplhlp 77 88 99
+polintr 7 8 9
+psppsgva 7 8 9
+actrolga 7 8 9
+psppipla 7 8 9
+cptppola 7 8 9
+trstprl 77 88 99
+trstlgl 77 88 99
+trstplc 77 88 99
+trstplt 77 88 99
+trstprt 77 88 99
+trstep 77 88 99
+trstun 77 88 99
+vote 7 8 9
+contplt 7 8 9
+wrkprty 7 8 9
+wrkorg 7 8 9
+badge 7 8 9
+sgnptit 7 8 9
+pbldmn 7 8 9
+bctprd 7 8 9
+pstplonl 7 8 9
+clsprty 7 8 9
+prtdgcl 6 7 8 9
+lrscale 77 88 99
+stflife 77 88 99
+stfeco 77 88 99
+stfgov 77 88 99
+stfdem 77 88 99
+stfedu 77 88 99
+stfhlth 77 88 99
+gincdif 7 8 9
+mnrgtjb 7 8 9
+freehms 7 8 9
+hmsfmlsh 7 8 9
+hmsacld 7 8 9
+euftf 77 88 99
+imsmetn 7 8 9
+imdfetn 7 8 9
+impcntr 7 8 9
+imbgeco 77 88 99
+imueclt 77 88 99
+imwbcnt 77 88 99
+happy 77 88 99
+sclmeet 77 88 99
+inprdsc 77 88 99
+sclact 7 8 9
+crmvct 7 8 9
+aesfdrk 7 8 9
+health 7 8 9
+hlthhmp 7 8 9
+atchctr 77 88 99
+atcherp 77 88 99
+rlgblg 7 8 9
+rlgblge 6 7 8 9
+rlgdgr 77 88 99
+rlgatnd 77 88 99
+pray 77 88 99
+dscrgrp 7 8 9
+dscrrce
+dscrntn
+dscrrlg
+dscrlng
+dscretn
+dscrage
+dscrgnd
+dscrsex
+dscrdsb
+dscroth
+dscrdk
+dscrref
+dscrnap
+dscrna
+ctzcntr 7 8 9
+ctzshipc 66 99
+brncntr 7 8 9
+livecnta 6666 7777 8888 9999
+blgetmg 7 8 9
+facntr 7 8 9
+mocntr 7 8 9
+gvrfgap 7 8 9
+rfgfrpc 7 8 9
+rfgbfml 7 8 9
+eneffap 77 88 99
+rdcenr 77 88 99
+cflsenr 77 88 99
+elgcoal 77 88 99
+elgngas 77 88 99
+elghydr 77 88 99
+elgnuc 77 88 99
+elgsun 77 88 99
+elgwind 77 88 99
+elgbio 77 88 99
+wrpwrct 7 8 9
+wrenexp 7 8 9
+wrdpimp 7 8 9
+wrdpfos 7 8 9
+wrntdis 7 8 9
+wrinspw 7 8 9
+wrtcfl 7 8 9
+wrtratc 7 8 9
+clmchng 7 8 9
+clmthgt1 6 7 8 9
+clmthgt2 6 7 8 9
+ccnthum 66 77 88 99
+ccrdprs 66 77 88 99
+wrclmch 6 7 8 9
+ccgdbd 66 77 88 99
+lkredcc 66 77 88 99
+lklmten 66 77 88 99
+gvsrdcc 66 77 88 99
+ownrdcc 66 77 88 99
+inctxff 7 8 9
+sbsrnen 7 8 9
+banhhap 7 8 9
+dfincac 7 8 9
+smdfslv 7 8 9
+uemplwk 77 88 99
+slvpens 77 88 99
+slvuemp 77 88 99
+gvslvol 77 88 99
+gvslvue 77 88 99
+gvcldcr 77 88 99
+sbstrec 7 8 9
+sbprvpv 7 8 9
+sbeqsoc 7 8 9
+sbbsntx 7 8 9
+sblazy 7 8 9
+sblwcoa 7 8 9
+imsclbn 7 8 9
+uentrjb 7 8 9
+lbenent 7 8 9
+bennent 7 8 9
+admub 7 8 9
+ubpay 6 7 8 9
+ubedu 6 7 8 9
+ubunp 6 7 8 9
+ub50pay 6 7 8 9
+ub50edu 6 7 8 9
+ub50unp 6 7 8 9
+ub20pay 6 7 8 9
+ub20edu 6 7 8 9
+ub20unp 6 7 8 9
+ubsppay 6 7 8 9
+ubspedu 6 7 8 9
+ubspunp 6 7 8 9
+bnlwinc 7 8 9
+eduunmp 7 8 9
+wrkprbf 7 8 9
+basinc 7 8 9
+eusclbf 7 8 9
+eudcnbf 7 8 9
+lkuemp 77 88 99
+lknemny 7 8 9
+hhmmb 77 88 99
+gndr 9
+agea 999
+yrbrn 7777 8888 9999
+lvgptnea 6 7 8 9
+dvrcdeva 7 8 9
+chldhm 9
+chldhhe 6 7 8 9
+domicil 7 8 9
+eduyrs 77 88 99
+pdwrk
+edctn
+uempla
+uempli
+dsbld
+rtrd
+cmsrv
+hswrk
+dngoth
+dngref
+dngdk
+dngna
+icpdwrk 9
+pdjobev 6 7 8 9
+pdjobyr 6666 7777 8888 9999
+emplno 7777 66666 77777 88888 99999
+jbspv 6 7 8 9
+njbspv 66666 77777 88888 99999
+wkdcorga 66 77 88 99
+iorgact 66 77 88 99
+wkhct 666 777 888 999
+icwhct 6 9
+wkhtot 666 777 888 999
+wrkac6m 6 7 8 9
+uemp3m 7 8 9
+uemp12m 6 7 8 9
+uemp5yr 6 7 8 9
+hinctnta 77 88 99
+hincfel 7 8 9
+pdwrkp
+edctnp
+uemplap
+uemplip
+dsbldp
+rtrdp
+cmsrvp
+hswrkp
+dngothp
+dngdkp
+dngnapp
+dngrefp
+dngnap
+wkhtotp 666 777 888 999
+atncrse 7 8 9
+ipcrtiv 7 8 9
+imprich 7 8 9
+ipeqopt 7 8 9
+ipshabt 7 8 9
+impsafe 7 8 9
+impdiff 7 8 9
+ipfrule 7 8 9
+ipudrst 7 8 9
+ipmodst 7 8 9
+ipgdtim 7 8 9
+impfree 7 8 9
+iphlppl 7 8 9
+ipsuces 7 8 9
+ipstrgv 7 8 9
+ipadvnt 7 8 9
+ipbhprp 7 8 9
+iprspot 7 8 9
+iplylfr 7 8 9
+impenv 7 8 9
+imptrad 7 8 9
+impfun 7 8 9
+dweight
+pspwght
+pweight
