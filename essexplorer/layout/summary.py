@@ -24,7 +24,7 @@ trust_summary = trust_summary[
         "75%",
         "max"
     ]
-]
+].round(2)
 
 summary_table = dash_table.DataTable(
     id="summary",
