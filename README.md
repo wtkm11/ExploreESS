@@ -6,6 +6,8 @@ The European Social Survey data for year 2016 is available here: https://www.eur
 
 ### Accessing the survey data
 
+While ESS data is freely available, I am not permitted to distribute it.
+
 1. To obtain the data, sign in with your email address.
 2. Download the SPSS ZIP file and extract `ESS8e02.sav` from the ZIP file.
 
@@ -19,8 +21,7 @@ $ unzip ESS8e02.spss.zip
 $ pspp-convert ESS8e02.sav ESS8e02.csv
 ```
 
-4. Ensure that `ESS8e02.csv` is in the `essexplorer/data` directory. While ESS
-   data is freely available, I am not permitted to distribute it.
+4. Ensure that `ESS8e02.csv` is in the `essexplorer/data` directory.
 
 ## How to run
 
