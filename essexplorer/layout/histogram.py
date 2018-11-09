@@ -45,8 +45,7 @@ def hist_get_figure(varname: str) -> go.Figure:
         ],
         layout=go.Layout(
             title="{} histogram".format(description),
-            showlegend=True,
-            legend=go.layout.Legend(x=0,y=1.0),
+            showlegend=False,
             margin=go.layout.Margin(l=40, r=0, t=40, b=30)
         )
     )

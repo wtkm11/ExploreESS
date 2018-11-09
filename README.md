@@ -11,15 +11,15 @@ While ESS data is freely available, I am not permitted to distribute it.
 1. To obtain the data, sign in with your email address.
 2. Download the SPSS ZIP file and extract `ESS8e02.sav` from the ZIP file.
 
-```
-$ unzip ESS8e02.spss.zip
-```
+  ```
+  $ unzip ESS8e02.spss.zip
+  ```
 
 3. The data can be converted to CSV format with `pspp`.
 
-```
-$ pspp-convert ESS8e02.sav ESS8e02.csv
-```
+  ```
+  $ pspp-convert ESS8e02.sav ESS8e02.csv
+  ```
 
 4. Ensure that `ESS8e02.csv` is in the `essexplorer/data` directory.
 
