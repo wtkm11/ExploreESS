@@ -10,6 +10,9 @@ from essexplorer.layout.summary import summary_table
 from essexplorer.layout.histogram import (
     hist, hist_get_figure, hist_variable_selection
 )
+from essexplorer.layout.correlations import (
+    correlations, descriptions_table
+)
 
 app = dash.Dash(__name__)
 
@@ -25,6 +28,11 @@ app.layout = html.Div(children=[
     html.H2("Histograms",),
     hist_variable_selection,  # Dropdown
     hist,  # Graph
+
+    # Correlations
+    html.H2("Pearson's correlation coefficients",),
+    correlations,
+    descriptions_table,
 
     # Weights note
     html.P(

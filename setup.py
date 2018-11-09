@@ -8,6 +8,7 @@ setup(
         "dash-core-components==0.36.0",
         "dash-html-components==0.13.2",
         "dash-table==3.1.3",
+        "matplotlib",
         "numpy",
         "pandas",
         "plotly"
