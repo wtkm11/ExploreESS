@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #282c34;
+    background: #efefef;
+}
+
+h1, h2, h3{
+    font-family: "Fjalla One", "Lato", sans-serif;
+}
+
+section, h1 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Summary section */
+#summary td:first-child, #summary th {
+  text-align: left;
+}
+
+#summary td, #summary th {
+  padding: 8px;
+}
+
+/* Histograms section */
+#hist_variable_selection{
+  width: 40%;
+  display: inline-block;
+}
+
+.histogram-selection {
+  margin: 10px
+}
+
+/* Correlation section */
+#descriptions_table {
+  margin-top: 15px;
+}
+
+/* Prediction section */
+#model {
+  margin: 20px;
+}
+
+#weights-note {
+  background: white;
+  padding: 10px;
+}

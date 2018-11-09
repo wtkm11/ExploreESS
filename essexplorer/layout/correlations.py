@@ -45,7 +45,8 @@ encoded_figure = base64.b64encode(bytes_file.getvalue()).decode("UTF-8")
 
 # Create an HTML image tag to display the image data
 correlations = html.Img(
-    src='data:image/png;base64,{fig}'.format(fig=encoded_figure)
+    src='data:image/png;base64,{fig}'.format(fig=encoded_figure),
+    id="correlation"
 )
 
 descriptions_table = html.Table(
@@ -53,5 +54,9 @@ descriptions_table = html.Table(
     [html.Tr([html.Th(col) for col in ["Variable name", "Description"]])] +
 
     # Body
-    [html.Tr([html.Td(var), html.Td(desc)]) for var, desc in TRUST_VARS.items()]
+    [
+        html.Tr([html.Td(var), html.Td(desc)])
+        for var, desc in TRUST_VARS.items()
+    ],
+    id="descriptions_table"
 )

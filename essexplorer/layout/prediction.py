@@ -14,11 +14,11 @@ x, residuals, rank, s = np.linalg.lstsq(trust, trstplt, rcond=None)
 r2 = (1 - residuals / (trstplt.size * trstplt.var()))[0]
 
 model = html.Div(
-    "trstplt = " + "+".join(
+    "trstplt = " + " + ".join(
         "{:.2f} * {}".format(coef, varname)
         for coef, varname in zip(x, trust.columns)
     ),
-    id="formula"
+    id="model"
 )
 fitdescription = html.Div(
     "Respondents' answers to the other questions explain {0:.2f}% of the "

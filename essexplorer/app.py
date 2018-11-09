@@ -19,39 +19,68 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div(children=[
     # Title
-    html.H1("European Social Survey: Exploring trust",),
+    html.H1("European Social Survey: Exploring trust"),
 
     # Summary statistics
-    html.H2("Summary statistics",),
-    summary_table,
+    html.Section(
+        children=[
+            html.H2("Summary statistics"),
+            summary_table
+        ],
+        className="summary-stats"
+    ),
 
     # Distributions
-    html.H2("Histograms",),
-    hist_variable_selection,  # Dropdown
-    hist,  # Graph
+    html.Section(
+        children=[
+            html.H2("Histograms",),
+            html.Div(
+                children=[
+                    html.Span("Select a variable: ", id="varselect_label"),
+                    hist_variable_selection,  # Dropdown
+                ],
+                className="histogram-selection"
+            ),
+            hist  # Graph
+        ],
+        className="histograms"
+    ),
 
     # Correlations
-    html.H2("Pearson's correlation coefficients",),
-    correlations,
-    descriptions_table,
+    html.Section(
+        children=[
+            html.H2("Pearson's correlation coefficients",),
+            correlations,
+            descriptions_table,
+        ],
+        className="correlations"
+    ),
 
     # Prediction
-    html.H2("Predicting trust in politicians"),
-    html.P(
-        "We can use multivariate least squares to develop a model that can "
-        "predict trust in politicians based on responses to other questions."
+    html.Section(
+        children=[
+            html.H2("Predicting the public's trust in politicians"),
+            html.P(
+                "We can use multivariate least squares to develop a model that "
+                "can predict trust in politicians based on responses to other "
+                "questions."
+            ),
+            model,
+            fitdescription,
+        ],
+        className="prediction"
     ),
-    model,
-    fitdescription,
 
     # Weights note
-    html.P(
-        (
-            "The data displayed has not been weighted to account for "
-            "differences in the likelihood that a respondent was a part of "
-            "the sample."
-        ),
-        id="weights-note"
+    html.Section(
+        html.P(
+            (
+                "The data displayed has not been weighted to account for "
+                "differences in the likelihood that a respondent was a part of "
+                "the sample."
+            ),
+            id="weights-note"
+        )
     )
 ])
 
