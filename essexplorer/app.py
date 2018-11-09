@@ -13,6 +13,7 @@ from essexplorer.layout.histogram import (
 from essexplorer.layout.correlations import (
     correlations, descriptions_table
 )
+from essexplorer.layout.prediction import fitdescription, model
 
 app = dash.Dash(__name__)
 
@@ -33,6 +34,15 @@ app.layout = html.Div(children=[
     html.H2("Pearson's correlation coefficients",),
     correlations,
     descriptions_table,
+
+    # Prediction
+    html.H2("Predicting trust in politicians"),
+    html.P(
+        "We can use multivariate least squares to develop a model that can "
+        "predict trust in politicians based on responses to other questions."
+    ),
+    model,
+    fitdescription,
 
     # Weights note
     html.P(
