@@ -45,3 +45,7 @@ While ESS data is freely available, I am not permitted to distribute it.
    ```
    $ ess-explorer
    ```
+
+## Screenshot
+
+![ExploreEss screenshot](https://raw.githubusercontent.com/wtkm11/ExploreEss/master/screenshot.png)
